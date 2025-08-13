@@ -1,0 +1,19 @@
+# Snakemake temporal
+.snakemake/
+
+# Resultados
+results/
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.counts.txt
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Referencias grandes
+reference/*.fa
+reference/*.fasta

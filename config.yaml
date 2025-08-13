@@ -1,0 +1,12 @@
+# config.yaml
+
+samples:
+  - SRR34490621
+  - SRR34490622
+
+paths:
+  raw_data: "data/raw"
+  trimmed_data: "data/trimmed"
+  results: "results"
+  reference_index: "reference/hisat2_index/grcm39_index"
+  gtf: "reference/hisat2_index/Mus_musculus.GRCm39.109.gtf"

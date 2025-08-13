@@ -1,0 +1,16 @@
+name: rnaseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc
+  - multiqc
+  - cutadapt
+  - star
+  - subread
+  - samtools
+  - snakemake
+  - bioconductor-deseq2
+  - r-ggplot2
+  - r-pheatmap
